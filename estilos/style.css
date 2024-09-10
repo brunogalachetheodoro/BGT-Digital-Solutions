@@ -1,0 +1,138 @@
+:root {
+    --azul-principal: #38B6FF;
+    --preto-principal: #121212;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  var(--preto-principal);
+}
+
+/* Header */
+
+header {
+    border-bottom: 2px solid #38B6FF;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+header img {
+    width: 80px;
+}
+
+nav {
+    display: none;
+}
+
+/* Inicio */
+
+.inicio {
+    background: linear-gradient(#12121221, #121212) ,url(../Imagens/background.avif) no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+.BlueButton {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--azul-principal);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.BlueButton:hover {
+    transition: .9s;
+    color: var(--azul-principal);
+    background-color: #121212;
+    border: 1px solid #38B6FF;
+} 
+
+button i {
+    padding-right: 7px;
+    font-size: 18px;
+}
+
+/* Serviços */
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2Blue {
+    color: var(--azul-principal);
+    text-align: center;
+    font-size: 36px;
+}
+
+
+
+.card-servicos {
+    background-color: var(--azul-principal);
+    text-align: center;
+    height: 380px;
+    width: 250px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-servicos button {
+    border: none;
+    color: var(--azul-principal);
+    background-color: var(--preto-principal);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 120px;
+}
+
+.card-servicos button:hover {
+    color: #121212;
+    background-color: var(--azul-principal);
+    border: 1px solid #121212;
+    transition: .5s;
+}
+
+.card-servicos h3 {
+    font-size: 25px;
+}
+
+.card-servicos p {
+    font-size: 12px;
+}
+
+.card-servicos span {
+    font-size: 100px;
+}
+
+.nossos-servicos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.nossos-servicos h2 {
+    font-weight: 100;
+    color: var(--azul-principal);
+}
