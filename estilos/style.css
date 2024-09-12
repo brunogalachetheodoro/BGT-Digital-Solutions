@@ -136,3 +136,44 @@ button i {
     font-weight: 100;
     color: var(--azul-principal);
 }
+
+/* Trabalhos */
+
+.degrade-azul {
+    height: 200px;
+    background:linear-gradient(#121212 30%, #38B6FF)
+}
+
+.div-trabalhos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao-trabalhos {
+    background-color: var(--azul-principal);
+    text-align: center;
+}
+
+.card-trabalhos {
+    background-color: var(--preto-principal);
+    height: 250px;
+    width: 250px;
+    color: var(--azul-principal);
+    border-radius: 10px;
+}
+
+.card-trabalhos h3 {
+    font-size: 20px;
+}
+
+.card-trabalhos button {
+    border: none;
+    color: var(--preto-principal);
+    background-color: var(--azul-principal);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 120px;
+}
