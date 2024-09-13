@@ -14,6 +14,10 @@ body {
     background-color:  var(--preto-principal);
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 100;
+}
 /* Header */
 
 header {
@@ -80,10 +84,7 @@ button i {
 .h2Blue {
     color: var(--azul-principal);
     text-align: center;
-    font-size: 36px;
 }
-
-
 
 .card-servicos {
     background-color: var(--azul-principal);
@@ -133,8 +134,11 @@ button i {
 }
 
 .nossos-servicos h2 {
-    font-weight: 100;
     color: var(--azul-principal);
+}
+
+.contratar-servico-h2 {
+    font-size: 26px;
 }
 
 /* Trabalhos */
@@ -148,19 +152,25 @@ button i {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .secao-trabalhos {
     background-color: var(--azul-principal);
     text-align: center;
+    border: 1px solid #38B6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-trabalhos {
     background-color: var(--preto-principal);
-    height: 250px;
     width: 250px;
     color: var(--azul-principal);
     border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0px;
 }
 
 .card-trabalhos h3 {
@@ -176,4 +186,28 @@ button i {
     cursor: pointer;
     font-weight: 600;
     width: 120px;
+    margin: 20px 0px;
+}
+
+.card-trabalhos img {
+    height: 250px;
+}
+
+.blackButton {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--preto-principal);
+    color: var(--azul-principal);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.blackButton:hover {
+    color: #121212;
+    background-color: var(--azul-principal);
+    border: 1px solid #121212;
+    transition: .5s;
 }
