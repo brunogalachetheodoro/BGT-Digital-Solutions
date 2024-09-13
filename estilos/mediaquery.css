@@ -1,0 +1,16 @@
+@media screen and (min-width: 1023px) and (max-width: 1280px) {
+    /*Inicio*/
+    
+    .inicio {
+        height: 70vh;
+    }
+
+    #titulo-inicio-mobile {
+        display: none;
+    }
+
+    #titulo-inicio-desktop {
+        font-size: 36px;
+        padding-bottom: 15px;
+    }
+}

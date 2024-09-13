@@ -211,3 +211,51 @@ button i {
     border: 1px solid #121212;
     transition: .5s;
 }
+
+/* Sobre */
+
+.degrade-preto {
+    height: 200px;
+    background:linear-gradient(#38b6ff 30%, #121212)
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--azul-principal);
+}
+
+.sobre h2 {
+    text-align: center;
+}
+
+.divSobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.divSobre p {
+    padding: 0px 20px;
+}
+
+.alinharBotao {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    height: 300px;
+}
+
+footer p {
+    color: var(--azul-principal);
+}
