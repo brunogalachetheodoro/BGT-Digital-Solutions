@@ -24,6 +24,7 @@ header {
     border-bottom: 2px solid #38B6FF;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     height: 80px;
 }
 
@@ -35,6 +36,27 @@ nav {
     display: none;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--azul-principal);
+}
+
+a:hover {
+    color: var(--preto-principal);
+    background-color: var(--azul-principal);
+    padding: 15px;
+    border-radius: 10px;
+    transition: .6s;
+}
 /* Inicio */
 
 .inicio {
@@ -73,6 +95,9 @@ button i {
     font-size: 18px;
 }
 
+#titulo-inicio-desktop {
+    display: none;
+}
 /* Serviços */
 
 .servicos {
@@ -167,6 +192,7 @@ button i {
 .card-trabalhos {
     background-color: var(--preto-principal);
     width: 250px;
+    height: 420px;
     color: var(--azul-principal);
     border-radius: 10px;
     overflow: hidden;

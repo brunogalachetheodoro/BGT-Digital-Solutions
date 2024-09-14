@@ -1,4 +1,8 @@
 @media screen and (min-width: 1023px) and (max-width: 1280px) {
+    /* Header */
+        nav {
+            display: block;
+        }
     /*Inicio*/
     
     .inicio {
@@ -10,7 +14,40 @@
     }
 
     #titulo-inicio-desktop {
+        display: block;
         font-size: 36px;
         padding-bottom: 15px;
+    }
+
+    /* Serviços */
+
+    .servicos {
+        flex-direction: row;
+    }
+
+    .card-servicos {
+        margin: 50px;
+    }
+
+    /* Trabalhos */
+
+    .div-trabalhos {
+        flex-direction: row;
+    }
+
+    .card-trabalhos {
+        margin: 50px;
+    }
+
+    /* Sobre */
+
+    .divSobre {
+        flex-direction: row;
+        margin: 0px 200px;
+        align-items: center;
+    }
+
+    .divSobre img {
+        height: 350px;
     }
 }
