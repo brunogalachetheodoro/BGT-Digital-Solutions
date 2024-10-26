@@ -16,7 +16,7 @@ body {
 
 h2 {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 200;
 }
 /* Header */
 
@@ -34,6 +34,7 @@ header img {
 
 nav {
     display: none;
+    font-weight: 600;
 }
 
 ul {
@@ -60,7 +61,7 @@ a:hover {
 /* Inicio */
 
 .inicio {
-    background: linear-gradient(#12121221, #121212) ,url(../Imagens/background.avif) no-repeat center center;
+    background: linear-gradient(#12121221, #121212) ,url(../Imagens/background.jpg) no-repeat center top;
     background-size: cover;
     height: 50vh;
     display: flex;
@@ -262,12 +263,21 @@ button i {
 }
 
 .divSobre p {
-    padding: 0px 20px;
+    margin: 0px 50px;
+}
+
+.alinhar-imagem {
+    display: flex;
+    justify-content: center;
 }
 
 .alinharBotao {
     display: flex;
     justify-content: center;
+}
+
+.estilo-img-final {
+    width: 350px;
 }
 
 /* Footer */

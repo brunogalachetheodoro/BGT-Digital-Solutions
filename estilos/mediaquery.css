@@ -1,4 +1,4 @@
-@media screen and (min-width: 1023px) and (max-width: 1280px) {
+@media screen and (min-width: 1080px) {
     /* Header */
         nav {
             display: block;
@@ -32,7 +32,7 @@
     /* Trabalhos */
 
     .div-trabalhos {
-        flex-direction: row;
+        flex-direction: row
     }
 
     .card-trabalhos {
@@ -43,11 +43,23 @@
 
     .divSobre {
         flex-direction: row;
-        margin: 0px 200px;
         align-items: center;
+        justify-content: space-around;
+    }
+
+    .divSobre p {
+        margin-left: 200px;
     }
 
     .divSobre img {
         height: 350px;
+        margin-right: 250px;
+    }
+}
+/* 
+@media screen and (min-width: 1080px) and (max-width: 1280px) {
+    .divSobre {
+        margin: 0px 200px;
+
     }
 }
