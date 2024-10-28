@@ -263,7 +263,11 @@ button i {
 }
 
 .divSobre p {
-    margin: 0px 50px;
+    padding: 0vw 22vw;
+}
+
+.divSobre h3 {
+    padding: 0vw 22vw;
 }
 
 .alinhar-imagem {
