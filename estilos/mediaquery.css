@@ -1,8 +1,28 @@
 @media screen and (min-width: 1080px) {
     /* Header */
-        nav {
-            display: block;
+
+        header {
+            justify-content: space-around;
         }
+        nav {
+            display: none;
+        }
+
+        #menuEscondido {
+            display: none;
+        }
+        
+        .menu-desktop {
+            display: block;
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+        }
+
+        .menu-desktop ul li{
+            padding: 0px 30px;
+        }
+
     /*Inicio*/
     
     .inicio {

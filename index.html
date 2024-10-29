@@ -14,11 +14,21 @@
 <body>
     <header>
         <img src="Imagens/bgt-LOGO.png" alt="">
-        <nav>
+        <nav class="menu-mobile">
+            <span class="material-symbols-outlined" id="menu-estilo">
+                menu
+                </span>
+            <ul id="menuEscondido">
+                <li><a href="#porque">POR QUE?</a></li>
+                <li><a href="#trabalhos">TRABALHOS</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+            </ul>
+        </nav>
+        <nav class="menu-desktop">
             <ul>
-                <li><a href="#">SERVIÇOS</a></li>
-                <li><a href="#">TRABALHOS</a></li>
-                <li><a href="#">SOBRE</a></li>
+                <li><a href="#porque" class="estilo-button">SERVIÇOS</a></li>
+                <li><a href="#trabalhos" class="estilo-button">TRABALHOS</a></li>
+                <li><a href="#sobre" class="estilo-button">SOBRE</a></li>
             </ul>
         </nav>
     </header>
@@ -30,30 +40,32 @@
         </section>
 
         <section class="nossos-servicos">
-            <h2 class="h2Blue">Por que ter um site?</h2>
+            <h2 class="h2Blue" id="porque">Por que ter um site?</h2>
             <div class="servicos">
                 <div class="card-servicos">
                     <span class="material-symbols-outlined">
-                        trending_up
+                        <span class="material-symbols-outlined">
+                            rocket_launch
+                            </span>
                         </span>
                     <h3>Você Na Frente Da Concorrência</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, dignissimos! Odit quas eligendi est alias asperiores quisquam vitae iusto voluptate. </p>
-                    <button>SAIBA MAIS</button>
-                </div>
-                <div class="card-servicos">
-                    <span class="material-symbols-outlined">
-                        web
-                        </span>
-                    <h3>Aumente Sua Credibilidade</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, dignissimos! Odit quas eligendi est alias asperiores quisquam vitae iusto voluptate. </p>
+                    <p>Pare de perder vendas para o seu concorrente! Tenha presença digital, aumente a credibilidade do seu negócio, consiga mais clientes e fidelize-os tendo um site profissional!</p>
                     <button>SAIBA MAIS</button>
                 </div>
                 <div class="card-servicos">
                     <span class="material-symbols-outlined">
                         query_stats
                         </span>
+                    <h3>Aumente Sua Credibilidade</h3>
+                    <p>Aumente sua credibilidade agora! Mostre ao mercado que seu negócio é confiável, conquiste mais clientes e passe autoridade tendo um site profissional e bem estruturado! </p>
+                    <button>SAIBA MAIS</button>
+                </div>
+                <div class="card-servicos">
+                    <span class="material-symbols-outlined">
+                        travel_explore
+                        </span>
                     <h3>Maior Presença Digital</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, dignissimos! Odit quas eligendi est alias asperiores quisquam vitae iusto voluptate. </p>
+                    <p>Potencialize seu negócio utilizando um site junto com suas redes sociais! Tenha um site profissional que trabalhe por você 24 horas, mostre seu negócio ao mundo e passe na frente da concorrência! </p>
                     <button>SAIBA MAIS</button>
                 </div>
             </div>
@@ -62,7 +74,7 @@
         </section>
         <div class="degrade-azul"></div>
         <section class="secao-trabalhos">
-            <h2>Meus Trabalhos</h2>
+            <h2 id="trabalhos">Meus Trabalhos</h2>
             <div class="div-trabalhos">
                 <div class="card-trabalhos">
                     <img src="Imagens/trabalhos/site-comida-japonesa.png" alt="">
@@ -85,7 +97,7 @@
         </section>
         <div class="degrade-preto"></div>
         <section class="sobre">
-            <h2>Sobre</h2>
+            <h2 id="sobre">Sobre</h2>
             <div class="divSobre">
                 <div class="div-txt-sobre">
                     <u>
@@ -109,5 +121,6 @@
             <p>Bruno Theodoro - 2024</p>
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
