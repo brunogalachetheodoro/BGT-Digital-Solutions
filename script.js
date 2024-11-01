@@ -1,7 +1,7 @@
 function clickMenu() {
-    if(menuescondido.style.display == 'block' ) {
-        menuescondido.style.display = 'none';
+    if(menuEscondido.style.display == 'block' ) {
+        menuEscondido.style.display = 'none';
     } else {
-        menuescondido.style.display = 'block'
+        menuEscondido.style.display = 'block'
     }
 }
